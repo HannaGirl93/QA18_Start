@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SeleniumStart" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-21T17:25:15" hostname="LAPTOP-AP8CUR31" time="0.001">
+  <properties/>
+  <testcase name="testLogin" classname="SeleniumStart" time="0.001"/>
+  <system-out><![CDATA[Opening web-site
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 37211
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677000314.031][WARNING]: This version of ChromeDriver has not been tested with Chrome version 109.
+февр. 21, 2023 7:25:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

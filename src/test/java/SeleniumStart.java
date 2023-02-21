@@ -23,6 +23,7 @@ public class SeleniumStart {
     public void preCondition(){
         System.out.println("Opening web-site");
         wd = new ChromeDriver();
+        wd.get("https://telranedu.web.app/home");
     }
 
     @Test
