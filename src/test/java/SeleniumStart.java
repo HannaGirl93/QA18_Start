@@ -36,8 +36,14 @@ public class SeleniumStart {
     @Test
     public void testLogin(){
         WebElement element = wd.findElement(By.tagName("a"));
+        WebElement form = wd.findElement(By.tagName("form"));
         List<WebElement> elements = wd.findElements(By.tagName("a"));
         System.out.println(elements.size());
+
+        WebElement root = wd.findElement(By.id("root"));
+        WebElement login = wd.findElement(By.linkText("Registration"));
+        WebElement password = wd.findElement(By.name("password"));
+        WebElement reg = wd.findElement(By.partialLinkText("LOG"));
     }
 
 
